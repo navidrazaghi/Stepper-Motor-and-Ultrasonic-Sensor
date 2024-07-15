@@ -1,6 +1,8 @@
 In this repository, we control a stepper motor based on the distance of a connected plane from a maximum position. If the plane is within 5 centimeters of this maximum position, we change the direction of the motor's rotation, causing the plane to move in the opposite direction. 
 
 To detect the distance of the plane, we use an ultrasonic sensor, which operates with three signals: GND, Echo, and Trigger. The sensor's timing diagram is as follows:
+
+
  ![image](https://github.com/user-attachments/assets/7713acb4-f23f-4dc2-a4db-2d68514d93be)
 
 1. A trigger pulse is sent from the microcontroller to the sensor, prompting it to start working.
